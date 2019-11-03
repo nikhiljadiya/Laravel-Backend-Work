@@ -1,0 +1,49 @@
+.content-header>.breadcrumb {
+    float: left;
+    padding: 10px 5px 15px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+
+table tr td, table tr th {
+    vertical-align: middle !important;
+}
+
+.login-logo img {
+    width: 100px;
+}
+
+/* On screens that are 600px wide or less*/
+/*@media screen and (max-width: 768px) {
+    .timer-data-table {
+        overflow-x: auto;
+    }
+}*/
+
+.clearfix {
+    clear: both;
+}
+
+.tbl-header-bg {
+    background-color: #FA8334;
+}
+
+.tbl-sub-header-bg {
+    background-color: #CBDCE6;
+}
+
+.tbl-divider-bg {
+    background-color: #53687E;
+}
+
+#timer_data.table, th, td {
+    border: 1px solid #53687E;
+}
+
+#timer_data.table-bordered>thead>tr>th {
+    border: 1px solid #53687E;
+}
+#timer_data.table-bordered>tbody>tr>td {
+    border: 1px solid #53687E;
+}
